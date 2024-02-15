@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAlert- Upcoming Contests At the Leading platforms</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="stylesheet" href="./handle.css">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="ques.css">
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+   <div id='loader'></div>
+    <div>
+      <nav class="nav">
+        <div class="container-fluid">
+          <p class="codealert">CodeAlert</p>
+         </div>
+         <div class="selection-box">
+            <label for="platformSelect" class="pod">Problem of the Day</label>
+            <select id="platformSelect" class="platform-select">
+                <option disabled selected value="">Select</option>
+                <option value="gfg">GFG</option>
+                <option value="leetcode">LeetCode</option>
+            </select>
+        </div>       
+      </nav>
+    </div>
+
+      <div class="top_platform">
+        <p style="margin-bottom:0px">Top Platforms</p>
+      </div>
+      <div class="practice"> 
+        <p>Practice at any of these platforms to raise higher.</p>  
+      </div>
+    <div class="slider">
+        <div class="slide-track">
+           <div class="slide">
+            <img src="gfg(1).png" alt="#" onclick="myFunction1()">
+           </div>
+           <div class="slide">
+            <img src="codeforces(2).jpg" alt="#" onclick="myFunction2()">
+           </div>
+           <div class="slide">
+            <img src="codechef(3).jpg" alt="#" onclick="myFunction3()">
+           </div>
+           <div class="slide">
+            <img src="leetcode(4).png" alt="#" onclick="myFunction4()">
+           </div>
+           <div class="slide">
+            <img src="hackerrank(5).png" alt="#" onclick="myFunction5()">
+           </div>
+           <div class="slide">
+            <img src="hackerearth(6).png" alt="#" onclick="myFunction6()">
+           </div>
+           <div class="slide">
+            <img src="atcoder(7).jpg" alt="#" onclick="myFunction7()">
+           </div>
+           <div class="slide">
+            <img src="topcoder(8).avif" alt="#" onclick="myFunction8()">
+           </div>
+           <div class="slide">
+            <img src="kickstart(9).png" alt="#" onclick="myFunction9()">
+           </div>
+           <div class="slide">
+            <img src="gfg(1).png" alt="#" onclick="myFunction1()">
+           </div>
+           <div class="slide">
+            <img src="codeforces(2).jpg" alt="#" onclick="myFunction2()">
+           </div>
+           <div class="slide">
+            <img src="codechef(3).jpg" alt="#" onclick="myFunction3()">
+           </div>
+           <div class="slide">
+            <img src="leetcode(4).png" alt="#" onclick="myFunction4()">
+           </div>
+           <div class="slide">
+            <img src="hackerrank(5).png" alt="#" onclick="myFunction5()">
+           </div>
+           <div class="slide">
+            <img src="hackerearth(6).png" alt="#" onclick="myFunction6()">
+           </div>
+           <div class="slide">
+            <img src="atcoder(7).jpg" alt="#" onclick="myFunction7()">
+           </div>
+           <div class="slide">
+            <img src="topcoder(8).avif" alt="#" onclick="myFunction8()">
+           </div>
+           <div class="slide">
+            <img src="kickstart(9).png" alt="#" onclick="myFunction9()">
+           </div>
+
+        </div>
+    </div>
+    <div class="upcoming_contest">
+        <p style="margin-bottom: 0px;">Upcoming contest</p>
+    </div>
+    <div class="note">
+        <p style="margin-bottom:0;"><b>Note: </b>All the timings mentioned below are in IST.</p>
+    </div>
+
+    <div id="container"></div>
+      <div class="ending"></div>
+    <script>
+        function myFunction1() {
+           window.open("https://www.geeksforgeeks.org", "_blank");
+        }
+        function myFunction2() {
+           window.open("https://codeforces.com/", "_blank");
+        }
+        function myFunction3() {
+           window.open("https://www.codechef.com/", "_blank");
+        }
+        function myFunction5() {
+           window.open("https://www.hackerrank.com/domains/ai/image-analysis/page/3", "_blank");
+        }
+        function myFunction6() {
+           window.open("https://www.hackerearth.com/", "_blank");
+        }
+        function myFunction7() {
+            window.open("https://atcoder.jp/", "_blank");
+        }
+        function myFunction8() {
+           window.open("https://www.topcoder.com/", "_blank");
+        }
+        function myFunction9() {
+           window.open("https://codingcompetitions.withgoogle.com", "_blank");
+        }
+        function myFunction4() {
+           window.open("https://leetcode.com/", "_blank");
+        }
+
+        const platformSelect = document.getElementById("platformSelect");
+
+        platformSelect.addEventListener("change", function () {
+            const selectedValue = platformSelect.value;
+            if (selectedValue === "gfg") {
+                window.open("https://practice.geeksforgeeks.org/problem-of-the-day", "_blank");
+            } else if (selectedValue === "leetcode") {
+                window.open("https://leetcode.com/problemset/all/","_blank");
+            }
+            platformSelect.value = "";
+        });
+
+        var navbar = document.querySelector('.nav');
+
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 0) {
+    navbar.classList.add('transparent');
+  } else {
+    navbar.classList.remove('transparent');
+  }
+});
+    </script>
+</body>
+</html>
+
+      <br>
+      
+    <script src="ques.js"></script>
+    
+</body>
+    
+</html>

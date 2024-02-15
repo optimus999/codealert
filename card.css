@@ -1,0 +1,127 @@
+
+.cardes
+{
+    margin-top: 2vw;
+width:18vw;
+height: 12vw;
+border-radius: 0.5vw;
+display: flex;
+flex-direction: column;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+.go{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    border-top-left-radius:0.5vw;
+    border-top-right-radius:0.5vw;
+}
+.platformimage{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.godiv{
+    margin-right:0.7vw;
+    width:1.8vw;
+    height: 1.5vw;
+    background-color: rgb(198, 255, 223);
+    border-radius: 45%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.golink{
+    text-decoration:none;
+    color: rgb(73, 131, 32);
+    font-size: 0.8vw;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#imagediv{
+    width:4.8vw;
+    height:4.8vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.imagediv2{
+    width:4.2vw;
+    height:4.2vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.hackerearth-image-style {
+    width: 4.3vw;
+    height: 4.3vw;
+}
+.platimage{
+    width: 100%;
+    height: 100%;
+}
+.platformname{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.platformnamepara{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 1.2vw;
+    padding-left:0.8vw;
+}
+.starttime{
+    width: 100%;
+    height: 10%;
+}
+.starttimediv{
+    width: 100%;
+    height: 100%;
+}
+.starttimepara{
+    font-size:0.9vw;
+    font-weight:300;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left:0.8vw;   
+    color: black;  
+    margin-top:-0.3vw;
+}
+.endtime{
+    width: 100%;
+    height: 10%;
+}
+.endtimediv{
+    width: 100%;
+    height: 100%;
+}
+.endtimepara{
+    font-size:0.9vw;
+    font-weight:300;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left:0.8vw;   
+    color: black;
+    margin-top: 0.2vw;
+    margin-top:-0.3vw;
+}
+#st{
+    font-weight: 550;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#et{
+    font-weight: 550;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cardes:hover
+{ 
+  transform: scale(1.05);   
+  transition: all 0.7s ease;
+}
